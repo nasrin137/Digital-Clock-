@@ -1,0 +1,55 @@
+body{
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 100vh;
+    justify-content: center;
+    background:url("https://img.freepik.com/free-photo/wide-angle-shot-single-tree-growing-clouded-sky-sunset-surrounded-by-grass_181624-22807.jpg?uid=R149230468&ga=GA1.1.1130425655.1725506081&semt=ais_hybrid") ;
+    background-repeat: no-repeat;
+    background-size: cover;
+    overflow: hidden;
+}
+h2{
+    color: white;
+    font-size: 50px;
+    text-transform: uppercase;
+    text-align: center;
+}
+.clock{
+    display: flex;
+}
+.clock div{
+    margin: 5px;
+    position: relative;
+}
+.clock span{
+    width:150px ;
+    height: 80px;
+    background-color:rgb(15, 193, 15);
+   
+    opacity: .6;
+    color:white ;
+    display: flex;
+    justify-content: center;
+    font-size: 50px;
+    align-items: center;
+    text-shadow: 2px 2px 4px rgba(0,0,0,0.3);
+}
+.clock .text{
+    background:green ;
+    letter-spacing: 3px;
+    height: 50px;
+    font-size:16px ;
+    text-transform: uppercase;
+
+}
+.clock #ampm{
+    bottom: 0;
+    position: absolute;
+    width: 80px;
+    height: 50px;
+    font-size: 25px;
+    background-color: rgb(24, 24, 16);
+}
